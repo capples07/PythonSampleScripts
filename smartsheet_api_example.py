@@ -1,4 +1,4 @@
-# Purpose of this script is to pull all licensed users via the Smartsheet API and calculate the different between their last login date and today
+# Purpose of this script is to pull all licensed users via the Smartsheet API and calculate the difference between their last login date and today
 # Install the smartsheet sdk with the command: pip install smartsheet-python-sdk
 import smartsheet
 import logging
