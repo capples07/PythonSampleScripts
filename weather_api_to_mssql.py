@@ -1,5 +1,5 @@
 #Server=localhost\SQLEXPRESS;Database=master;Trusted_Connection=True;
-#api key 3adeae56aa724b5891442431250405 
+#api key redacted 
 
 from __future__ import print_function
 import time
@@ -18,7 +18,7 @@ logging.basicConfig(filename='example.log', encoding='utf-8', level=logging.DEBU
 
 # Configure API key authorization: ApiKeyAuth
 configuration = weatherapi.Configuration()
-configuration.api_key['key'] = '3adeae56aa724b5891442431250405'
+configuration.api_key['key'] = 'redacted'
 
 # create an instance of the API class
 api_instance = weatherapi.APIsApi(weatherapi.ApiClient(configuration))
